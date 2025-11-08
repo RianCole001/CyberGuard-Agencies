@@ -1,7 +1,7 @@
 import React from 'react';
 import './usp.css'; // We will define the dark theme styles here
 
-const Usp = () => {
+const Us = () => {
   const sellingPoints = [
     { 
       title: "Hands-On Cyber Range Labs", 
@@ -38,4 +38,4 @@ const Usp = () => {
   );
 };
 
-export default Usp;
+export default Us;

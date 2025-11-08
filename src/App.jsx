@@ -7,19 +7,19 @@ import Navbar from './components/Nav.jsx';
 import Hero from "./components/Hero.jsx"; 
 import Roles from "./components/Roles.jsx";
 import Testimonials from "./components/Testimonials.jsx";
-import Usp from "./components/Usp.jsx";
 import Cta from "./components/Cta.jsx";
 import CareerPath from "./pages/Careerpath.jsx";
 import Footer from "./components/Footer.jsx";
 import logo from './assets/logo.png';
-import Career from "./pages/Career.jsx"; // Importing Career component
+import Career from "./pages/Career.jsx";
+import Us from "./components/Us.jsx";
 
 // 1. Component for the main landing page content flow (excluding Navbar and Footer)
 const HomeContent = () => (
     <>
         <Hero />
         <Roles />
-        <USP />
+       <Us/>
         <Testimonials />
         <Cta />
     </>
