@@ -43,10 +43,10 @@ const CareerPath = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <h1 className="display-4 fw-bold mb-3" style={{ color: accentColor }}>
-                  Ethical Hacking & Penetration Testing Specialist Track
+                  Ethical Hacking & Penetration Testing Bootcamp(physical Track)
                 </h1>
                 <p className="lead text-white-50 mb-5">
-                  Step into the world of offensive cybersecurity with our comprehensive Specialist Track, ideal for professionals ready to level up. You'll master **hands-on skills** through guided labs and real-world Capstone projects.
+                  Step into the world of offensive cybersecurity with our comprehensive Specialist Track, ideal for professionals ready to level up. You'll master **hands-on skills** through guided labs and real-world haacking and exploitationsn.
                 </p>
               </div>
             </div>

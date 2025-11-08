@@ -28,7 +28,7 @@ const Hero = () => {
             Explore Courses
           </a>
           <a href="#about" className="btn btn-secondary btn-lg">
-            View Success Stories
+            View Bootcamps
           </a>
         </div>
       </div>

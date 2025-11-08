@@ -12,6 +12,7 @@ import Footer from "./components/Footer.jsx";
 import logo from "./assets/logo.png";
 import Career from "./pages/Career.jsx";
 import Us from "./components/Us.jsx";
+import About from "./pages/About.jsx";
 
 // --- Main Landing Content ---
 const HomeContent = () => (
@@ -42,7 +43,7 @@ function App() {
         />
 
         <Route path="/courses" element={<Career />} />
-        <Route path="/careerpath" element={<CareerPath />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );

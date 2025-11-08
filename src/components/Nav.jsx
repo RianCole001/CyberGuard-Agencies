@@ -92,13 +92,16 @@ function Navbar({ logo }) {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/courses">Courses</Link>
+              <Link className="nav-link" to="/courses">Cs-Bootcamp</Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link" to="/about">About</Link>
             </li>
 
+ <li className="nav-item">
+              <Link className="nav-link" to="/about">Library</Link>
+            </li>
             {/* Dropdown example */}
             <li className="nav-item dropdown">
               <Link
@@ -108,7 +111,7 @@ function Navbar({ logo }) {
                 data-bs-toggle="dropdown" // Keep this, as it controls the dropdown sub-component
                 aria-expanded="false"
               >
-                More
+                Courses
               </Link>
               <ul className="dropdown-menu dropdown-menu-dark">
                 <li><Link className="dropdown-item" to="/blog">Blog</Link></li>
