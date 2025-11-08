@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
+import Footer from '../components/Footer';  
 
 const About = () => {
     // --- State for Payment Modal ---
@@ -304,12 +305,8 @@ const About = () => {
                 </div>
             </section>
 
-            {/* Footer */}
-            <footer className="py-3 text-center small text-white-50" style={{ backgroundColor: deepBlue, borderTop: `1px solid ${deepBlue}` }}>
-                © 2025 Cyber Guard Agencies. All rights reserved.
-            </footer>
+            <Footer/>
             
-            {/* The Payment Modal */}
             <PaymentModal />
         </div>
     );
