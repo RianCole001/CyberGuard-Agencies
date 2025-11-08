@@ -7,7 +7,7 @@ import Navbar from './components/Nav.jsx';
 import Hero from "./components/Hero.jsx"; 
 import Roles from "./components/Roles.jsx";
 import Testimonials from "./components/Testimonials.jsx";
-import USP from "./components/usp.jsx";
+import Usp from "./components/Usp.jsx";
 import Cta from "./components/Cta.jsx";
 import CareerPath from "./pages/Careerpath.jsx";
 import Footer from "./components/Footer.jsx";
